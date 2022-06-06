@@ -10,16 +10,16 @@ def run_timing():
             time = int(time)
             total_list.append(time)
 
-    avg = 0
+    runs = 0
     total = 0  
 
     for run in total_list:
         total += run 
-        avg += 1
+        runs += 1
 
-    average = total / avg 
+    avg = total / runs 
     
-    print(f'Average of {average}, over {avg} runs!')
+    print(f'Average of {avg}, over {runs} runs!')
 
 
 
