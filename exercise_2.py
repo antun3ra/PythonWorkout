@@ -1,9 +1,10 @@
 def mysum(*args):
+    sum = 0
     for v in args:
-        sum = 0 + v
+        sum += v
     return sum
 
 
-test = mysum(1, 9, -10, 8)
+test = mysum(8, 9, 10, -15, 20)
 
 print(test)
